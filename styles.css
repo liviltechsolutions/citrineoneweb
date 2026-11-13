@@ -21,6 +21,7 @@
 .privacy-draft{max-width:var(--max);margin:auto;padding:72px 5.2%;display:grid;grid-template-columns:155px 1fr;gap:6%;border-top:1px solid var(--line);scroll-margin-top:90px}.privacy-draft-head .eyebrow{max-width:130px}.privacy-draft h2{font-size:32px;margin:0}.privacy-draft-copy{max-width:760px;color:var(--muted);font-size:11px;line-height:1.8}.privacy-draft-copy a:not(.text-link){text-decoration:underline;color:var(--orange-dark)}.privacy-draft-copy .text-link{margin-top:4px}@media(max-width:760px){.privacy-draft{padding:60px 5%;grid-template-columns:1fr;gap:15px}.privacy-draft h2{font-size:30px}}
 .portfolio-stat{display:flex;align-items:center;gap:12px;margin:15px 0 0;padding:13px 14px;background:#f4f2ed}.portfolio-stat strong{color:var(--orange-dark);font:500 27px/1 var(--serif)}.portfolio-stat span{max-width:440px;color:var(--muted);font-size:10px;line-height:1.55}
 .founder-portrait img{object-position:16% center}.person-thumb{object-position:16% center}@media(max-width:760px){.founder-portrait img{object-position:18% center}}
+.redza-thumb{object-position:55% center}.redza-profile .founder-portrait img{object-position:55% center}@media(max-width:760px){.redza-profile .founder-portrait img{object-position:55% center}}
 
 /* Refined visual system */
 :root{--paper:#f7f6f1;--ink:#22231f;--muted:#686861;--line:#deddd5;--orange:#e9652a;--orange-dark:#b9481b;--max:1320px}

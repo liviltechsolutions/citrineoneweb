@@ -8,7 +8,7 @@ The page includes the required content areas and marks items that need Citrine a
 
 ## Brand and content approvals
 
-The header and footer use the Citrine wordmark from its public Instagram and Facebook profiles. The hero team photo is a 2022 image credited to Citrine One Instagram by the public gallery where it was found. Its reuse permission must be confirmed before publication. The visible draft banner flags that people, partner affiliations, copy, and assets need approval. Affiliate relationships must be reconfirmed; no partner logos are used.
+The header and footer use the Citrine wordmark from its public Instagram and Facebook profiles. The hero team photo is a 2022 image credited to Citrine One Instagram by the public gallery where it was found. Ivlynn Yap's portrait is credited to MARKETECH APAC (2024); Redza Arbee's portrait is credited to Terence Toh / Free Malaysia Today (2024). Reuse permission for both portraits and the hero image must be confirmed before publication. Profile biographies and titles also require Citrine approval. The visible draft banner flags that people, partner affiliations, copy, and assets need approval. Affiliate relationships must be reconfirmed; no partner logos are used.
 
 The design uses the black and orange visible in the public wordmark as a working palette. Citrine's approved corporate identity guidelines were not included in the RFP attachment, so the palette, logo treatment, typography, and imagery need brand review.
 
