@@ -54,3 +54,95 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 .service-card:hover .card-index,.service-card:hover p,.service-card:hover .card-link,.service-card:focus-visible .card-index,.service-card:focus-visible p,.service-card:focus-visible .card-link{color:#30231d}
 .contact-details .button-facebook{display:inline-flex;width:max-content;min-height:44px;margin-top:10px;padding:12px 16px;background:#1877f2;color:#fff;border:1px solid #1877f2;font-size:11px;gap:9px}.contact-details .button-facebook:hover{background:#0d65d9;border-color:#0d65d9;color:#fff}.button-facebook svg{width:17px;height:17px;fill:currentColor}.contact-details .button-facebook span{margin-left:3px;color:#fff}
 .footer-brand{width:170px;height:58px;padding:0 5px;background:#fff}.footer-brand img{mix-blend-mode:normal;object-fit:cover;object-position:center}
+
+/* Mobile layout corrections: keep every section in one readable column */
+@media(max-width:760px){
+  html{scroll-padding-top:78px;overflow-x:clip}
+  body{overflow-x:clip}
+  .preview-bar{display:flex;flex-direction:column;align-items:flex-start;gap:2px;padding:8px 5%;font-size:9px;line-height:1.45}
+  .preview-bar span:last-child{text-align:left;max-width:100%}
+  .site-header{height:68px;padding:0 5%}
+  .brand{width:140px;height:48px}
+  .menu-toggle{flex:none}
+  .primary-nav{top:67px}
+  .hero{min-height:0;padding:48px 5% 24px;grid-template-columns:minmax(0,1fr);grid-template-rows:auto auto;align-items:start;gap:22px}
+  .hero-copy{padding:0}
+  .hero h1{max-width:100%;font-size:clamp(49px,11vw,72px);overflow-wrap:anywhere}
+  .hero-lede{font-size:14px}
+  .hero-photo{width:100%;height:clamp(260px,78vw,380px);min-height:0}
+  .hero-bottom{grid-column:1;display:flex;flex-wrap:wrap;justify-content:flex-start;gap:9px 16px;font-size:9px}
+  .hero-bottom a{margin-left:auto}
+  .section,.services-section,.insights-section{width:100%;max-width:none;padding:72px 5%;grid-template-columns:minmax(0,1fr);column-gap:0;row-gap:20px}
+  .section-aside,.services-section>.section-aside,.insights-section>.section-aside{width:100%;max-width:none;justify-self:stretch;align-self:start}
+  .section-main,.services-section>.section-main,.insights-section>.section-main{width:100%;max-width:none;min-width:0;justify-self:stretch}
+  .team-block{grid-column:1;margin-top:38px;padding-top:24px}
+  .about-grid{grid-template-columns:minmax(0,1fr);gap:10px}
+  .about-grid>div{min-width:0}
+  .section-heading{align-items:flex-start;flex-direction:column;gap:12px}
+  .section-heading h2,.section h2{max-width:100%;font-size:clamp(37px,8.8vw,54px);overflow-wrap:anywhere}
+  .section-intro{max-width:100%;font-size:12px}
+  .subhead{align-items:flex-start;flex-direction:column;gap:10px}
+  .approval-note{max-width:100%}
+  .people-grid{grid-template-columns:minmax(0,1fr);gap:9px}
+  .person-card{min-width:0;padding:15px}
+  .person-card>div{min-width:0}
+  .pending{margin-left:3px}
+  .founder-profile{width:100%;grid-template-columns:minmax(0,1fr);gap:20px;padding:18px}
+  .founder-portrait{width:100%;max-width:none}
+  .founder-portrait img{width:100%;aspect-ratio:16/10;object-position:18% center}
+  .redza-profile .founder-portrait img{object-position:55% center}
+  .founder-copy{min-width:0}
+  .founder-copy h3{font-size:clamp(34px,9vw,44px);overflow-wrap:anywhere}
+  .founder-role{line-height:1.6}
+  .career-list li{grid-template-columns:25px minmax(0,1fr);gap:6px}
+  .career-list small{overflow-wrap:anywhere}
+  .portfolio-stat{align-items:flex-start;gap:9px}
+  .portfolio-stat strong{flex:none;font-size:24px}
+  .founder-sources{overflow-wrap:anywhere}
+  .partner-strip{padding:16px}
+  .service-grid,.insight-grid,.book-grid{grid-template-columns:minmax(0,1fr)}
+  .service-card{min-height:0;padding:20px}
+  .service-card h3{margin-top:23px}
+  .programme-section{padding-top:72px;padding-bottom:72px}
+  .programme-row{grid-template-columns:26px minmax(0,1fr) 18px;gap:8px;padding:12px 0}
+  .programme-row strong{font-size:15px;line-height:1.4}
+  .inline-cta{align-items:flex-start;flex-direction:column;padding:16px}
+  .insight-card{min-height:0;padding:20px}
+  .article-links a{overflow-wrap:anywhere}
+  .book-card{grid-template-columns:40px minmax(0,1fr);gap:12px;padding:17px}
+  .book-mark{width:38px;height:52px}
+  .impact-section{padding:72px 5%}
+  .impact-inner{width:100%;max-width:none;grid-template-columns:minmax(0,1fr);gap:18px}
+  .impact-cards{grid-template-columns:minmax(0,1fr)}
+  .impact-cards article{padding:20px}
+  .contact-section{width:100%;max-width:none;padding:72px 5%;grid-template-columns:minmax(0,1fr);gap:28px}
+  .contact-left,.enquiry-form{min-width:0}
+  .contact-left h2{font-size:clamp(44px,10vw,64px);overflow-wrap:anywhere}
+  .contact-details .button-facebook{max-width:100%;white-space:normal}
+  .enquiry-form{padding:20px}
+  .site-footer{padding:24px 5% 18px}
+  .footer-main{align-items:flex-start;flex-wrap:wrap}
+  .footer-main>p{flex:1 1 100%;order:3}
+  .footer-contact{align-self:center;margin-left:auto}
+  .footer-bottom{flex-direction:column;gap:14px;overflow-wrap:anywhere}
+  .footer-bottom nav{gap:10px 15px}
+  .privacy-draft{width:100%;padding:58px 5%;grid-template-columns:minmax(0,1fr);gap:14px}
+}
+@media(max-width:420px){
+  .preview-bar{padding:7px 5%}
+  .hero{padding-top:39px}
+  .hero h1{font-size:clamp(45px,11.6vw,56px)}
+  .hero-actions{align-items:stretch}
+  .button{width:100%}
+  .hero-photo{height:270px}
+  .hero-photo figcaption{align-items:flex-start;flex-direction:column;gap:6px;padding:35px 14px 13px}
+  .hero-photo figcaption a{text-align:left}
+  .hero-bottom a{margin-left:0}
+  .founder-profile{padding:14px}
+  .founder-portrait img{aspect-ratio:4/3}
+  .redza-profile .founder-portrait img{object-position:55% center}
+  .career-list small{font-size:9px}
+  .portfolio-stat{flex-wrap:wrap}
+  .portfolio-stat span{font-size:10px}
+  .contact-details .button-facebook{width:100%}
+}
