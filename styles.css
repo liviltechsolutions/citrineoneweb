@@ -158,3 +158,10 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 .team-block>.partner-strip{margin-top:0}
 @media(max-width:760px){.team-block{grid-template-columns:minmax(0,1fr);gap:16px}.team-block>.founder-profile{grid-column:1/-1;grid-template-columns:minmax(0,1fr);padding:18px}.team-block>.founder-profile .founder-portrait img{aspect-ratio:16/10;max-height:none}}
 @media(max-width:420px){.team-block>.founder-profile{padding:14px}.team-block>.founder-profile .founder-portrait img{aspect-ratio:4/3}}
+
+/* Crop Ivlynn's source portrait around her, avoiding the backdrop wordmark */
+.portrait-frame{width:100%;overflow:hidden;background:#efeee8}
+.ivlynn-portrait-frame{aspect-ratio:4/3;max-height:300px}
+.ivlynn-portrait-frame img{width:100%;height:100%;max-height:none!important;aspect-ratio:auto!important;object-fit:cover;object-position:left center!important;transform:scale(1.28);transform-origin:left center}
+@media(max-width:760px){.ivlynn-portrait-frame{aspect-ratio:16/10;max-height:none}}
+@media(max-width:420px){.ivlynn-portrait-frame{aspect-ratio:4/3}}
