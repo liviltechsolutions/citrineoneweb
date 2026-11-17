@@ -1,5 +1,7 @@
 (() => {
-  const CONTENT_URL = new URL('data/homepage.json', document.baseURI);
+  const CONTENT_URL = new URL('https://raw.githubusercontent.com/liviltechsolutions/citrineoneweb/main/data/homepage.json');
+  CONTENT_URL.searchParams.set('v', String(Date.now()));
+  const REPOSITORY_RAW = 'https://raw.githubusercontent.com/liviltechsolutions/citrineoneweb/main/';
   const text = (selector, value, root = document) => {
     const node = root.querySelector(selector);
     if (node && value !== undefined && value !== null) node.textContent = value;
@@ -14,7 +16,11 @@
       return ['http:', 'https:', 'mailto:', 'tel:'].includes(parsed.protocol) ? parsed.href : fallback;
     } catch (_) { return fallback; }
   };
-  const imageUrl = value => safeUrl(value, '');
+  const imageUrl = value => {
+    const path = String(value || '').replace(/^\.\//, '').replace(/^\/+/, '');
+    if (path.startsWith('assets/')) return `${REPOSITORY_RAW}${path}?v=${Date.now()}`;
+    return safeUrl(value, '');
+  };
   const setImage = (img, src, alt) => {
     if (!img || !src) return;
     img.src = imageUrl(src);
