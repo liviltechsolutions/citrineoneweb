@@ -113,7 +113,7 @@ content:
               - { name: description, label: Description, type: text }
               - { name: linkLabel, label: Link label, type: string }
               - { name: link, label: Link URL, type: string }
-              - { name: accent, label: Orange card, type: boolean }
+              - { name: accent, label: Orange on hover, type: boolean }
       - name: programmes
         label: C-suite programmes
         type: object

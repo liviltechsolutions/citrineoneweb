@@ -148,7 +148,7 @@
         "description": "Research and survey management to understand perceptions and inform decisions.",
         "linkLabel": "Explore research",
         "link": "#research",
-        "accent": false
+        "accent": true
       }
     ]
   },
