@@ -171,8 +171,6 @@
         if (email) { email.href = `mailto:${contact.email}`; email.querySelector('.contact-value').textContent = contact.email; }
         const wa = details.querySelector('a[href^="https://wa.me/"]');
         if (wa) { wa.href = `https://wa.me/${contact.whatsapp.replace(/\D/g, '')}`; wa.querySelector('.contact-value').textContent = `WhatsApp ${contact.whatsapp}`; }
-        const location = details.querySelector('.contact-location');
-        if (location) location.textContent = contact.location;
         const fb = details.querySelector('.button-facebook');
         if (fb) fb.href = safeUrl(contact.facebook);
       }

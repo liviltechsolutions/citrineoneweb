@@ -217,7 +217,6 @@ content:
           - { name: intro, label: Introduction, type: text }
           - { name: email, label: Email address, type: string }
           - { name: whatsapp, label: WhatsApp number, type: string }
-          - { name: location, label: Location, type: string }
           - { name: facebook, label: Facebook URL, type: string }
           - { name: instagram, label: Instagram URL, type: string }
           - { name: privacyNote, label: Privacy notice text, type: text }
