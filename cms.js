@@ -56,7 +56,7 @@
     const career = (person.career || []).length ? `<div class="portfolio-label">Selected experience &amp; portfolio</div><ul class="career-list">${person.career.map((entry, i) => `<li><span>${String(i + 1).padStart(2, '0')}</span><div><strong>${escape(entry.heading)}</strong><small>${escape(entry.detail)}</small></div></li>`).join('')}</ul>` : '';
     const statistic = person.statistic ? `<p class="portfolio-stat"><strong>${escape(person.statistic)}</strong><span>${escape(person.statisticText)}</span></p>` : '';
     const sources = (person.sources || []).length ? `<p class="founder-sources">Profile references: ${person.sources.map(source => externalLink(escape(source.label), source.url)).join(' · ')}</p>` : '';
-    const profile = `<article class="founder-profile${index === 1 ? ' redza-profile' : ' ivlynn-profile'}">${photo}<div class="founder-copy"><p class="eyebrow">Leadership profile</p><h3>${escape(person.name)}</h3><p class="founder-role">${escape(person.role)}</p>${biography}${career}${statistic}${sources}</div></article>`;
+    const profile = `<article class="founder-profile${index === 1 ? ' redza-profile' : ' ivlynn-profile'}"><header class="founder-heading"><p class="eyebrow">Leadership profile</p><h3>${escape(person.name)}</h3><p class="founder-role">${escape(person.role)}</p></header>${photo}<div class="founder-copy">${biography}${career}${statistic}${sources}</div></article>`;
     return { card, profile };
   };
 

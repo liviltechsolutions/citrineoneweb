@@ -177,3 +177,23 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 .team-block>.founder-profile .portfolio-stat span{font-size:12px;line-height:1.65}
 .people-grid .person-card h4{font-size:14px}
 .people-grid .person-card p{font-size:11px;line-height:1.6}
+
+/* Leadership profiles: one card per row, heading first, then one portrait beside the details. */
+.team-block{grid-template-columns:minmax(0,1fr);gap:20px}
+.team-block>.subhead,.team-block>.people-grid,.team-block>.partner-strip,.team-block>.founder-profile{grid-column:1/-1}
+.team-block>.people-grid{display:none}
+.team-block>.founder-profile{display:grid;grid-template-columns:minmax(210px,.72fr) minmax(0,1.55fr);grid-template-rows:auto 1fr;grid-template-areas:"heading heading" "portrait details";gap:22px 34px;padding:28px 32px;align-items:start}
+.team-block>.founder-profile .founder-heading{grid-area:heading;min-width:0}
+.team-block>.founder-profile .founder-heading h3{margin:0 0 5px;font-size:clamp(32px,3.2vw,44px);line-height:1.1}
+.team-block>.founder-profile .founder-heading .eyebrow{margin:0 0 9px}
+.team-block>.founder-profile .founder-heading .founder-role{margin:0;font-size:14px!important}
+.team-block>.founder-profile .founder-portrait{grid-area:portrait;width:100%;margin:0}
+.team-block>.founder-profile .founder-portrait img{width:100%;max-height:420px;aspect-ratio:4/5;object-fit:cover;object-position:center top}
+.team-block>.founder-profile .ivlynn-portrait-frame{aspect-ratio:4/5;max-height:420px}
+.team-block>.founder-profile .founder-copy{display:contents}
+.team-block>.founder-profile .founder-copy>*{grid-column:2;min-width:0}
+.team-block>.founder-profile .founder-copy>p:not(.eyebrow):not(.founder-role):not(.founder-sources){font-size:14px;line-height:1.75;margin:0 0 12px}
+.team-block>.founder-profile .founder-copy .career-list{margin-top:0}
+.team-block>.founder-profile .founder-copy .portfolio-label{margin-top:4px}
+@media(max-width:700px){.team-block>.founder-profile{grid-template-columns:minmax(0,1fr);grid-template-rows:auto;grid-template-areas:"heading" "portrait" "details";gap:16px;padding:22px}.team-block>.founder-profile .founder-copy>*{grid-column:1}.team-block>.founder-profile .founder-portrait{max-width:420px}.team-block>.founder-profile .founder-portrait img,.team-block>.founder-profile .ivlynn-portrait-frame{aspect-ratio:4/3;max-height:360px}.team-block>.founder-profile .ivlynn-portrait-frame img{object-fit:contain!important}}
+.team-block>.founder-profile .founder-copy>*:not(.founder-heading){grid-column:2}
