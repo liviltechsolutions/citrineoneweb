@@ -376,3 +376,79 @@ figure{margin-left:0;margin-right:0}
   .person-thumb{width:52px;height:52px;flex:0 0 52px;object-fit:cover}
   .insight-card img,.book-card img,.impact-cards img{width:100%;max-width:100%;height:auto;object-fit:cover}
 }
+
+/* Improve readability across navigation, captions and supporting copy. */
+.preview-bar{font-size:12px}
+.preview-bar span:first-child{font-size:11px}
+.primary-nav{font-size:13px}
+.nav-cta,.button{font-size:13px}
+.eyebrow{font-size:11.5px}
+.hero-photo figcaption{font-size:12px}
+.hero-photo figcaption a{font-size:11px}
+.hero-bottom,.section-aside{font-size:12px}
+.section-number{font-size:12px}
+.text-link{font-size:13px}
+.approval-note{font-size:12px}
+.person-card p{font-size:12px}
+.pending{font-size:11px}
+.partner-label,.card-index,.content-type{font-size:11px}
+.partner-strip p{font-size:13px}
+.section-intro,.about-copy{font-size:15px}
+.service-card p,.insight-card p,.impact-cards p{font-size:13px}
+.card-link,.inline-cta p,.impact-cards a{font-size:12px}
+.programme-row>span{font-size:12px}
+.programme-row strong{font-size:18px}
+.content-status{font-size:12px}
+.article-links a span,.books-heading>p,.book-card p:not(.content-type){font-size:12px}
+.impact-cards article>span{font-size:11px}
+.enquiry-form label:not(.consent){font-size:13px}
+.enquiry-form .consent{font-size:13px}
+.enquiry-form .form-note,.form-status{font-size:12px}
+.footer-contact{font-size:13px}
+.footer-bottom{font-size:11px}
+.case-gallery-main figcaption{font-size:13px}
+.case-gallery-main figcaption a{font-size:12px}
+.gallery-controls{font-size:12px}
+.case-copy .content-type,.media-feature .eyebrow{font-size:11px}
+.case-copy>p:not(.content-type),.media-feature>p:not(.eyebrow){font-size:14px}
+.case-facts span{font-size:11px}
+.video-link small,.media-read>span{font-size:10px}
+.video-link em{font-size:12px}
+.more-stories>span{font-size:11px}
+.more-stories p,.more-stories .text-link{font-size:12px}
+.founder-portrait figcaption,.founder-sources,.privacy-draft-copy{font-size:13px}
+.founder-role{font-size:14px!important}
+.portfolio-label,.career-list li>span{font-size:11px}
+.career-list strong{font-size:13px}
+.career-list small,.portfolio-stat span{font-size:12px}
+.contact-details .contact-action.button-facebook{font-size:14px}
+
+@media(max-width:760px){
+  body{font-size:16px;line-height:1.65}
+  .preview-bar{font-size:11px}
+  .primary-nav{font-size:15px}
+  .primary-nav .nav-cta{font-size:14px}
+  .hero-lede,.about-copy,.section-intro,.impact-lede,.contact-left>p:not(.eyebrow){font-size:16px;line-height:1.75}
+  .eyebrow,.section-aside,.section-number{font-size:12px}
+  .hero-photo figcaption{font-size:13px}
+  .hero-photo figcaption a{font-size:12px}
+  .hero-bottom{font-size:12px}
+  .service-card p,.insight-card p,.impact-cards p,.case-copy>p:not(.content-type),.media-feature>p:not(.eyebrow){font-size:14px}
+  .service-card .card-index,.content-type,.partner-label,.impact-cards article>span{font-size:11px}
+  .card-link,.text-link,.inline-cta p,.impact-cards a{font-size:13px}
+  .person-card p,.partner-strip p,.approval-note{font-size:13px}
+  .programme-row strong{font-size:19px}
+  .article-links a span,.book-card p:not(.content-type),.books-heading>p{font-size:13px}
+  .contact-details .contact-action{font-size:15px}
+  .enquiry-form label:not(.consent),.enquiry-form .consent,.enquiry-form .form-note{font-size:14px}
+  .footer-main>p{font-size:16px}
+  .footer-contact,.footer-bottom{font-size:12px}
+  .gallery-controls,.case-gallery-main figcaption,.case-gallery-main figcaption a,.video-link em,.more-stories p{font-size:13px}
+  .video-link small,.case-copy .content-type,.media-feature .eyebrow,.case-facts span,.more-stories>span{font-size:11px}
+  .founder-portrait figcaption,.founder-sources,.privacy-draft-copy{font-size:14px}
+  .founder-role{font-size:14px!important}
+  .portfolio-label,.career-list li>span{font-size:12px}
+  .career-list strong{font-size:14px}
+  .career-list small,.portfolio-stat span{font-size:13px}
+  .contact-details .contact-action.button-facebook{font-size:15px}
+}
