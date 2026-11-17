@@ -15,7 +15,7 @@
     "photo": "assets/citrine-instagram-story.jpg",
     "photoAlt": "Citrine team at a team-building event in 2022",
     "photoCaption": "People behind the perspective",
-    "photoCredit": "Photo credited to Citrine One Instagram · 2022 · reuse approval required",
+    "photoCredit": "Citrine One Instagram · 2022",
     "photoCreditUrl": "https://myweekendplan.asia/top-best-pr-agencies-in-malaysia/",
     "established": "Established 2001",
     "locations": "Kuala Lumpur · Penang · Regional network"
@@ -30,8 +30,7 @@
     ],
     "linkLabel": "Meet the leadership & network",
     "peopleEyebrow": "People & collaborators",
-    "peopleTitle": "Experience across the conversation.",
-    "peopleNote": "Names, titles and affiliations shown here are copied from the RFP and remain subject to Citrine’s approval. Partner agreements and permissions must be reconfirmed before publication."
+    "peopleTitle": "Experience across the conversation."
   },
   "people": [
     {
@@ -40,7 +39,7 @@
       "shortRole": "Founder & Executive Chairman",
       "portrait": "assets/ivlynnyap-1.jpeg",
       "portraitAlt": "Ivlynn Yap, Group Executive Chairman of Citrine",
-      "photoCredit": "MARKETECH APAC, 2024 · reuse permission to be confirmed",
+      "photoCredit": "MARKETECH APAC, 2024",
       "photoCreditUrl": "https://marketech-apac.com/citrine-welcomes-back-founder-ivlynn-yap-cheng-theng-as-new-group-executive-chairman/",
       "biography": [
         "Ivlynn brings more than 30 years of experience across journalism, regional marketing communications, public relations, stakeholder engagement and crisis communications. She founded Citrine One and returned to lead the group in 2024.",
@@ -87,7 +86,7 @@
       "shortRole": "Founder & Executive Director, Social Enterprise Initiative",
       "portrait": "assets/redza-arbee-profile.webp",
       "portraitAlt": "Redza Arbee signing copies of The Digital Transformation of Money",
-      "photoCredit": "Terence Toh / Free Malaysia Today, 2024 · reuse permission to be confirmed",
+      "photoCredit": "Terence Toh / Free Malaysia Today, 2024",
       "photoCreditUrl": "https://www.freemalaysiatoday.com/category/leisure/2024/05/12/learn-to-accept-digital-currencies-as-a-viable-alternative-says-author",
       "biography": [
         "Redza is a digital transformation professional and author with more than 17 years of experience across finance, technology and the public sector. His work has included digital adoption, technology strategy and digitalisation initiatives.",
@@ -134,7 +133,7 @@
     }
   ],
   "partners": {
-    "label": "Collaborators named in the brief · confirmation required",
+    "label": "Collaborators",
     "names": [
       "Central Force Insight",
       "Beyond Insights",
@@ -189,7 +188,7 @@
     "eyebrow": "Leadership, readiness & reputation",
     "titleLead": "Prepare leaders to",
     "titleEmphasis": "move with confidence.",
-    "intro": "A focused programme range for senior leaders and the teams who advise them. Programme formats, learning outcomes and delivery details to be confirmed by Citrine.",
+    "intro": "A focused programme range for senior leaders and the teams who advise them.",
     "cta": "Looking for a tailored session for your leadership team?",
     "ctaLink": "Ask about a programme",
     "items": [
@@ -233,7 +232,7 @@
         "category": "RESEARCH & SURVEY",
         "symbol": "R",
         "title": "Evidence before assumption.",
-        "description": "Brand perception research and survey management, with approved project summaries and methodology notes added to the archive."
+        "description": "Brand perception research and survey management, with project summaries and methodology notes."
       },
       {
         "category": "ARTICLES & OP-EDS",
@@ -257,26 +256,26 @@
         "category": "MEDIA RELEASES",
         "symbol": "M",
         "title": "A clear record of announcements.",
-        "description": "Release archive planned with a reusable detail layout: date, category, headline, summary, approved media contact and related service or programme."
+        "description": "A home for Citrine announcements, with release details and media contact information."
       }
     ]
   },
   "books": {
     "eyebrow": "Books",
     "title": "Long-form thinking from Citrine’s leaders.",
-    "note": "Book details and purchase routes are shown as draft content and require approval.",
+    "note": "Selected titles from Citrine’s leaders.",
     "items": [
       {
         "category": "MEMOIR",
         "title": "Choices: A Memoir",
-        "description": "By Ivlynn Yap. Add the approved book description and information route here.",
+        "description": "By Ivlynn Yap.",
         "linkLabel": "Ask about the book",
         "link": "#contact"
       },
       {
         "category": "LEADERSHIP & DIGITAL MONEY",
         "title": "The Digital Transformation of Money",
-        "description": "By Redza Arbee. External purchase link is subject to Citrine’s approval.",
+        "description": "By Redza Arbee.",
         "linkLabel": "View publisher listing",
         "link": "https://marsdenlawbook.com/product/the-digital-transformation-of-money/"
       }
@@ -291,14 +290,14 @@
       {
         "category": "01 / FINANCIAL LITERACY",
         "title": "Nimbus Presents: Money Wise Tales",
-        "description": "A financial literacy learning experience. Programme details and partner information to be confirmed.",
+        "description": "A financial literacy learning experience for children.",
         "linkLabel": "Discuss partnership",
         "link": "#contact"
       },
       {
         "category": "02 / ENTREPRENEURSHIP",
         "title": "Entrepreneurship Reality Check",
-        "description": "A social enterprise initiative. The approved programme description and participation route can live here.",
+        "description": "A social enterprise initiative that supports entrepreneurship learning.",
         "linkLabel": "Explore collaboration",
         "link": "#contact"
       }
@@ -314,6 +313,6 @@
     "location": "Kuala Lumpur · Penang, Malaysia",
     "facebook": "https://www.facebook.com/Citrineone",
     "instagram": "https://www.instagram.com/citrine.my/",
-    "privacyNote": "This section is a placeholder for Citrine’s approved privacy notice. Before launch, Citrine must confirm the enquiry data flow, retention period, access roles, storage location, deletion process, and final consent language."
+    "privacyNote": "Citrine One uses the details you provide to respond to your enquiry. The enquiry form prepares an email to hello@citrine.com.my; your message is sent only when you choose to send it from your email app."
   }
-}
+}\n

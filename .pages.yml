@@ -48,7 +48,6 @@ content:
           - { name: linkLabel, label: Leadership link label, type: string }
           - { name: peopleEyebrow, label: People heading, type: string }
           - { name: peopleTitle, label: People title, type: string }
-          - { name: peopleNote, label: Approval note, type: text }
       - name: people
         label: People and leadership profiles
         type: object
@@ -173,7 +172,7 @@ content:
         fields:
           - { name: eyebrow, label: Section heading, type: string }
           - { name: title, label: Section title, type: string }
-          - { name: note, label: Approval note, type: text }
+          - { name: note, label: Section introduction, type: text }
           - name: items
             label: Books
             type: object
@@ -223,7 +222,7 @@ content:
           - { name: location, label: Location, type: string }
           - { name: facebook, label: Facebook URL, type: string }
           - { name: instagram, label: Instagram URL, type: string }
-          - { name: privacyNote, label: Privacy notice draft, type: text }
+          - { name: privacyNote, label: Privacy notice text, type: text }
 
 settings:
   content:
