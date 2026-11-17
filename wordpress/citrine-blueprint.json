@@ -1,0 +1,9 @@
+{
+  "landingPage": "/wp-admin/edit.php?post_type=citrine_content",
+  "steps": [
+    {
+      "step": "activatePlugin",
+      "pluginPath": "citrine-headless/citrine-headless.php"
+    }
+  ]
+}
