@@ -291,3 +291,6 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 @media(max-width:680px){.programme-section .programme-list{grid-template-columns:1fr;gap:10px}.programme-section .programme-row{min-height:0;padding:17px}.hero{background:linear-gradient(155deg,#fbf1e8 0%,#f7f4ed 66%,#eee9df 100%)}.services-section .service-card{min-height:190px}}
 @media(max-width:900px){.about-section>.team-block{grid-column:1}}
 :where(a,button,input,select,textarea):focus-visible{outline:3px solid rgba(197,76,23,.55);outline-offset:3px}
+
+/* Titles subtly grow as they approach the reading focus. */
+#top h1,#about-title,#services-title,#programmes-title,#insights-title,#impact-title,#contact-title{transform:scale(var(--scroll-title-scale,1));transform-origin:left center;opacity:var(--scroll-title-opacity,1)}
