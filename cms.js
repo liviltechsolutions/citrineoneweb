@@ -185,7 +185,7 @@
     }
   };
 
-  fetch(CONTENT_URL, { cache: 'no-cache' })
+  fetch(CONTENT_URL, { cache: 'no-store' })
     .then(response => response.ok ? response.json() : Promise.reject(new Error('Content file unavailable')))
     .then(apply)
     .catch(() => { /* Keep the embedded Citrine page content if the JSON cannot be loaded. */ });
