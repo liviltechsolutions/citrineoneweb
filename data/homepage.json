@@ -1,0 +1,176 @@
+{
+  "brand": {
+    "logo": "assets/citrine-instagram-profile.jpg",
+    "logoAlt": "Citrine One logo",
+    "tagline": "Shaping Stories. Inspiring Results."
+  },
+  "hero": {
+    "eyebrow": "Strategic communications · Malaysia",
+    "titleLead": "Clarity for the",
+    "titleMiddle": "moments ",
+    "titleEmphasis": "that matter.",
+    "lede": "Citrine helps organisations shape their stories, earn trust and respond with confidence when the conversation matters most.",
+    "primaryLabel": "Explore our expertise",
+    "secondaryLabel": "Start a conversation",
+    "photo": "assets/citrine-instagram-story.jpg",
+    "photoAlt": "Citrine team at a team-building event in 2022",
+    "photoCaption": "People behind the perspective",
+    "photoCredit": "Photo credited to Citrine One Instagram · 2022 · reuse approval required",
+    "photoCreditUrl": "https://myweekendplan.asia/top-best-pr-agencies-in-malaysia/",
+    "established": "Established 2001",
+    "locations": "Kuala Lumpur · Penang · Regional network"
+  },
+  "about": {
+    "eyebrow": "Communications with perspective",
+    "titleLead": "Built on media insight.",
+    "titleEmphasis": "Ready for what’s next.",
+    "paragraphs": [
+      "Founded in 2001, Citrine One Malaysia is a strategic communications and crisis communications consultancy serving corporate organisations, government and SMEs. Its work brings together experienced communications counsel, stakeholder understanding and a journalist’s view of how stories travel.",
+      "With operations in Kuala Lumpur and Penang and a regional network, Citrine works across reputation, leadership, research and social impact."
+    ],
+    "linkLabel": "Meet the leadership & network",
+    "peopleEyebrow": "People & collaborators",
+    "peopleTitle": "Experience across the conversation.",
+    "peopleNote": "Names, titles and affiliations shown here are copied from the RFP and remain subject to Citrine’s approval. Partner agreements and permissions must be reconfirmed before publication."
+  },
+  "people": [
+    {
+      "name": "Ivlynn Yap",
+      "role": "Founder & Group Executive Chairman",
+      "shortRole": "Founder & Executive Chairman",
+      "portrait": "assets/ivlynn-yap-portrait.webp",
+      "portraitAlt": "Ivlynn Yap, Group Executive Chairman of Citrine",
+      "photoCredit": "MARKETECH APAC, 2024 · reuse permission to be confirmed",
+      "photoCreditUrl": "https://marketech-apac.com/citrine-welcomes-back-founder-ivlynn-yap-cheng-theng-as-new-group-executive-chairman/",
+      "biography": [
+        "Ivlynn brings more than 30 years of experience across journalism, regional marketing communications, public relations, stakeholder engagement and crisis communications. She founded Citrine One and returned to lead the group in 2024.",
+        "Her career has included reporting and editorial roles at The Star, Asia Computer Weekly and Asia Pacific Telecommunications; regional marketing communications at AMD; editorial, production and business development at CNET; and communications leadership at Perbadanan Insurans Deposit Malaysia (PIDM)."
+      ],
+      "career": [
+        { "heading": "Journalism & editorial", "detail": "The Star · Asia Computer Weekly · Asia Pacific Telecommunications" },
+        { "heading": "Regional technology communications", "detail": "Advanced Micro Devices (AMD) · CNET" },
+        { "heading": "Founder & communications adviser", "detail": "Founded Citrine One; strategic and crisis communications" },
+        { "heading": "Public sector communications leadership", "detail": "PIDM · communications and crisis preparedness, 2021–2024" }
+      ],
+      "statistic": "300+",
+      "statisticText": "clients served by Citrine under Ivlynn’s leadership, as stated in the group’s speaker profile.",
+      "sources": [
+        { "label": "Citrine speaker profile", "url": "https://www.citrine.com.my/commsforward25-speakers" },
+        { "label": "PR Asia speaker biography", "url": "https://conferences.marketing-interactive.com/pr-asia-sg/ivlynn-yap/" },
+        { "label": "Citrine leadership announcement", "url": "https://marketech-apac.com/citrine-welcomes-back-founder-ivlynn-yap-cheng-theng-as-new-group-executive-chairman/" }
+      ]
+    },
+    {
+      "name": "Redza Arbee",
+      "role": "Founder & Executive Director, Social Enterprise Initiative",
+      "shortRole": "Founder & Executive Director, Social Enterprise Initiative",
+      "portrait": "assets/redza-arbee-profile.webp",
+      "portraitAlt": "Redza Arbee signing copies of The Digital Transformation of Money",
+      "photoCredit": "Terence Toh / Free Malaysia Today, 2024 · reuse permission to be confirmed",
+      "photoCreditUrl": "https://www.freemalaysiatoday.com/category/leisure/2024/05/12/learn-to-accept-digital-currencies-as-a-viable-alternative-says-author",
+      "biography": [
+        "Redza is a digital transformation professional and author with more than 17 years of experience across finance, technology and the public sector. His work has included digital adoption, technology strategy and digitalisation initiatives.",
+        "His career includes digital adoption and cloud initiatives at Khazanah Nasional, partnership groundwork for the United Nations Technology Innovation Lab in Malaysia (UNTIL), and policy and industry development work at Malaysia’s Multimedia Development Corporation (MDEC)."
+      ],
+      "career": [
+        { "heading": "Digital transformation & adoption", "detail": "Khazanah Nasional · digital adoption framework and cloud solutions initiatives" },
+        { "heading": "Technology for development", "detail": "United Nations Technology Innovation Lab (UNTIL) · partnership groundwork in Malaysia" },
+        { "heading": "National digital industry development", "detail": "Multimedia Development Corporation (MDEC) · policy, strategy and initiatives" },
+        { "heading": "Author & financial literacy advocate", "detail": "The Digital Transformation of Money · Nimbus Presents: Money Wise Tales five-book series" }
+      ],
+      "statistic": "10,000+",
+      "statisticText": "copies of the Money Wise Tales series distributed to more than 30 primary schools, as reported in October 2026.",
+      "sources": [
+        { "label": "Redza’s professional bio", "url": "https://www.redzaarbee.com/my-bio" },
+        { "label": "Citrine programme announcement", "url": "https://presskl.com/2026/10/05/citrine-one-malaysia-launches-nimbus-presents-money-wise-tales-financial-literacy-programme-for-children/" },
+        { "label": "Free Malaysia Today feature", "url": "https://www.freemalaysiatoday.com/category/leisure/2025/12/15/turning-money-lessons-into-magical-tales-for-children" },
+        { "label": "Publisher listing", "url": "https://marsdenlawbook.com/product/the-digital-transformation-of-money/" }
+      ]
+    }
+  ],
+  "partners": {
+    "label": "Collaborators named in the brief · confirmation required",
+    "names": [
+      "Central Force Insight",
+      "Beyond Insights",
+      "ABSS (Financio)",
+      "Perdana Leadership Foundation",
+      "Wong Jin Nee & Teo Advocates & Solicitors",
+      "Abra Consulting"
+    ]
+  },
+  "services": {
+    "eyebrow": "Practical counsel, integrated thinking",
+    "titleLead": "Communications built",
+    "titleMiddle": "around ",
+    "titleEmphasis": "your reality.",
+    "intro": "Clear pathways from reputation challenges to long-term capability. Explore the service, programme and research routes that fit your needs.",
+    "items": [
+      { "category": "01 / COUNSEL", "title": "Strategic corporate communications", "description": "Communications planning, positioning and practical counsel for corporate priorities.", "linkLabel": "Explore programmes", "link": "#programmes", "accent": false },
+      { "category": "02 / READINESS", "title": "Crisis communications", "description": "Preparedness, issue response and reputation support for high-pressure moments.", "linkLabel": "Build readiness", "link": "#programmes", "accent": true },
+      { "category": "03 / RELATIONSHIPS", "title": "Stakeholder management", "description": "Thoughtful engagement with the people and communities who shape outcomes.", "linkLabel": "See related programmes", "link": "#programmes", "accent": false },
+      { "category": "04 / EVIDENCE", "title": "Brand perception research", "description": "Research and survey management to understand perceptions and inform decisions.", "linkLabel": "Explore research", "link": "#research", "accent": false }
+    ]
+  },
+  "programmes": {
+    "eyebrow": "Leadership, readiness & reputation",
+    "titleLead": "Prepare leaders to",
+    "titleEmphasis": "move with confidence.",
+    "intro": "A focused programme range for senior leaders and the teams who advise them. Programme formats, learning outcomes and delivery details to be confirmed by Citrine.",
+    "cta": "Looking for a tailored session for your leadership team?",
+    "ctaLink": "Ask about a programme",
+    "items": [
+      { "title": "Crisis communications strategy & simulation", "link": "#contact" },
+      { "title": "Stakeholder management", "link": "#contact" },
+      { "title": "Conflict management", "link": "#contact" },
+      { "title": "Reputation management", "link": "#contact" },
+      { "title": "Economic crime management", "link": "#contact" }
+    ]
+  },
+  "insights": {
+    "eyebrow": "Ideas, evidence and perspective",
+    "titleLead": "Make space for",
+    "titleEmphasis": "better questions.",
+    "intro": "An organised home for the CF Insights series, research, articles, opinion pieces and media releases. Related items can connect back to the service or programme they inform.",
+    "items": [
+      { "category": "VIDEO · AUDIO · NOTES", "symbol": "CF", "title": "CF Insights with Ivlynn", "description": "A series for data-led insights and perspectives on issues that matter. The archive can bring episodes, transcripts and supporting links together.", "linkLabel": "View Citrine updates", "link": "https://www.linkedin.com/company/citrine-one/", "articles": [] },
+      { "category": "RESEARCH & SURVEY", "symbol": "R", "title": "Evidence before assumption.", "description": "Brand perception research and survey management, with approved project summaries and methodology notes added to the archive.", "linkLabel": "", "link": "", "articles": [] },
+      { "category": "ARTICLES & OP-EDS", "symbol": "A", "title": "Ideas with a point of view.", "description": "Browse published work and commentary by Citrine’s leaders.", "linkLabel": "", "link": "", "articles": [
+        { "title": "Why Women Still Struggle to Lead", "attribution": "Ivlynn Yap · BusinessToday · 2026", "url": "https://www.businesstoday.com.my/2026/02/28/why-women-still-struggle-to-lead-and-why-the-problem-is-bigger-than-the-workplace/" },
+        { "title": "The Digital Transformation of Money", "attribution": "Redza Arbee · The Edge · 2024", "url": "https://theedgemalaysia.com/node/733145" }
+      ] },
+      { "category": "MEDIA RELEASES", "symbol": "M", "title": "A clear record of announcements.", "description": "Release archive planned with a reusable detail layout: date, category, headline, summary, approved media contact and related service or programme.", "linkLabel": "", "link": "", "articles": [] }
+    ]
+  },
+  "books": {
+    "eyebrow": "Books",
+    "title": "Long-form thinking from Citrine’s leaders.",
+    "note": "Book details and purchase routes are shown as draft content and require approval.",
+    "items": [
+      { "category": "MEMOIR", "title": "Choices: A Memoir", "description": "By Ivlynn Yap. Add the approved book description and information route here.", "linkLabel": "Ask about the book", "link": "#contact" },
+      { "category": "LEADERSHIP & DIGITAL MONEY", "title": "The Digital Transformation of Money", "description": "By Redza Arbee. External purchase link is subject to Citrine’s approval.", "linkLabel": "View publisher listing", "link": "https://marsdenlawbook.com/product/the-digital-transformation-of-money/" }
+    ]
+  },
+  "impact": {
+    "eyebrow": "Learning that reaches beyond the boardroom",
+    "titleLead": "Stories can open",
+    "titleEmphasis": "new possibilities.",
+    "intro": "A distinct social enterprise area, connected to the Citrine story and designed for sponsors, collaborators and community partners.",
+    "items": [
+      { "category": "01 / FINANCIAL LITERACY", "title": "Nimbus Presents: Money Wise Tales", "description": "A financial literacy learning experience. Programme details and partner information to be confirmed.", "linkLabel": "Discuss partnership", "link": "#contact" },
+      { "category": "02 / ENTREPRENEURSHIP", "title": "Entrepreneurship Reality Check", "description": "A social enterprise initiative. The approved programme description and participation route can live here.", "linkLabel": "Explore collaboration", "link": "#contact" }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Make the next step clear",
+    "titleLead": "Let’s talk about",
+    "titleEmphasis": "what matters.",
+    "intro": "For strategic communications, crisis support, leadership programmes or social enterprise enquiries, reach Citrine directly.",
+    "email": "hello@citrine.com.my",
+    "whatsapp": "+60 16 409 3899",
+    "location": "Kuala Lumpur · Penang, Malaysia",
+    "facebook": "https://www.facebook.com/Citrineone",
+    "instagram": "https://www.instagram.com/citrine.my/",
+    "privacyNote": "This section is a placeholder for Citrine’s approved privacy notice. Before launch, Citrine must confirm the enquiry data flow, retention period, access roles, storage location, deletion process, and final consent language."
+  }
+}

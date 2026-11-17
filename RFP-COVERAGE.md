@@ -72,5 +72,5 @@ The mobile navigation uses the same section links. The enquiry preview asks for 
 - Measurement: baseline existing analytics first; then agree events for successful enquiries, programme interest, social enterprise enquiries and engagement with insights. No analytics script is included in this concept.
 - Content approval: Citrine must approve names, titles, categories, partner status, article metadata, book purchase routes, photo rights, logos and final copy.
 - Privacy and data: Citrine must provide an approved notice and choose form delivery, access controls, retention, hosting location and deletion process.
-- Platform: CMS, hosting, staging/production, backups, security, SEO migration and support remain to be selected with Citrine. The current files are a static prototype only.
+- Platform: the RFP leaves the CMS and hosting choice open. A GitHub-backed Pages CMS integration is now included as the working concept; confirm the platform with Citrine. Hosting, staging/production, backups, security, SEO migration and support still need final selection and setup.
 - Language: English is the concept language. Additional languages would need approved translations and separate scope.

@@ -1,0 +1,235 @@
+media:
+  input: assets
+  output: assets
+  categories: [image]
+  extensions: [jpg, jpeg, png, webp, svg]
+  rename: safe
+
+content:
+  - name: homepage
+    label: Citrine One homepage
+    type: file
+    path: data/homepage.json
+    format: json
+    fields:
+      - name: brand
+        label: Brand and navigation
+        type: object
+        fields:
+          - { name: logo, label: Logo image, type: image }
+          - { name: logoAlt, label: Logo description, type: string }
+          - { name: tagline, label: Footer tagline, type: string }
+      - name: hero
+        label: Homepage hero
+        type: object
+        fields:
+          - { name: eyebrow, label: Small heading, type: string }
+          - { name: titleLead, label: Main heading, type: string }
+          - { name: titleMiddle, label: Heading words before emphasis, type: string }
+          - { name: titleEmphasis, label: Emphasised heading, type: string }
+          - { name: lede, label: Introduction, type: text }
+          - { name: primaryLabel, label: Primary button, type: string }
+          - { name: secondaryLabel, label: Secondary button, type: string }
+          - { name: photo, label: Hero photo, type: image }
+          - { name: photoAlt, label: Photo description, type: string }
+          - { name: photoCaption, label: Photo caption, type: string }
+          - { name: photoCredit, label: Photo credit, type: string }
+          - { name: photoCreditUrl, label: Photo credit link, type: string }
+          - { name: established, label: Established line, type: string }
+          - { name: locations, label: Locations line, type: string }
+      - name: about
+        label: About Citrine
+        type: object
+        fields:
+          - { name: eyebrow, label: Small heading, type: string }
+          - { name: titleLead, label: Main heading, type: string }
+          - { name: titleEmphasis, label: Emphasised heading, type: string }
+          - { name: paragraphs, label: About paragraphs, type: text, list: true }
+          - { name: linkLabel, label: Leadership link label, type: string }
+          - { name: peopleEyebrow, label: People heading, type: string }
+          - { name: peopleTitle, label: People title, type: string }
+          - { name: peopleNote, label: Approval note, type: text }
+      - name: people
+        label: People and leadership profiles
+        type: object
+        list:
+          min: 0
+          collapsible:
+            collapsed: true
+            summary: "{name}"
+        fields:
+          - { name: name, label: Name, type: string }
+          - { name: role, label: Role, type: string }
+          - { name: shortRole, label: Card role, type: string }
+          - { name: portrait, label: Portrait, type: image }
+          - { name: portraitAlt, label: Portrait description, type: string }
+          - { name: photoCredit, label: Photo credit, type: string }
+          - { name: photoCreditUrl, label: Photo credit link, type: string }
+          - { name: biography, label: Biography paragraphs, type: text, list: true }
+          - name: career
+            label: Selected experience
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{heading}"
+            fields:
+              - { name: heading, label: Heading, type: string }
+              - { name: detail, label: Detail, type: text }
+          - { name: statistic, label: Highlight number, type: string }
+          - { name: statisticText, label: Highlight detail, type: text }
+          - name: sources
+            label: Biography sources
+            type: object
+            list: true
+            fields:
+              - { name: label, label: Link label, type: string }
+              - { name: url, label: URL, type: string }
+      - name: partners
+        label: Collaborators
+        type: object
+        fields:
+          - { name: label, label: Collaborator heading, type: string }
+          - { name: names, label: Collaborator names, type: string, list: true }
+      - name: services
+        label: Services
+        type: object
+        fields:
+          - { name: eyebrow, label: Small heading, type: string }
+          - { name: titleLead, label: Main heading, type: string }
+          - { name: titleMiddle, label: Heading words before emphasis, type: string }
+          - { name: titleEmphasis, label: Emphasised heading, type: string }
+          - { name: intro, label: Introduction, type: text }
+          - name: items
+            label: Service cards
+            type: object
+            list:
+              min: 0
+              collapsible:
+                collapsed: true
+                summary: "{title}"
+            fields:
+              - { name: category, label: Card category, type: string }
+              - { name: title, label: Service title, type: string }
+              - { name: description, label: Description, type: text }
+              - { name: linkLabel, label: Link label, type: string }
+              - { name: link, label: Link URL, type: string }
+              - { name: accent, label: Orange card, type: boolean }
+      - name: programmes
+        label: C-suite programmes
+        type: object
+        fields:
+          - { name: eyebrow, label: Small heading, type: string }
+          - { name: titleLead, label: Main heading, type: string }
+          - { name: titleEmphasis, label: Emphasised heading, type: string }
+          - { name: intro, label: Introduction, type: text }
+          - { name: cta, label: Follow-up prompt, type: string }
+          - { name: ctaLink, label: Follow-up link label, type: string }
+          - name: items
+            label: Programme list
+            type: object
+            list:
+              min: 0
+              collapsible:
+                collapsed: true
+                summary: "{title}"
+            fields:
+              - { name: title, label: Programme title, type: string }
+              - { name: link, label: Link URL, type: string }
+      - name: insights
+        label: Insights and research
+        type: object
+        fields:
+          - { name: eyebrow, label: Small heading, type: string }
+          - { name: titleLead, label: Main heading, type: string }
+          - { name: titleEmphasis, label: Emphasised heading, type: string }
+          - { name: intro, label: Introduction, type: text }
+          - name: items
+            label: Insight cards
+            type: object
+            list:
+              min: 0
+              collapsible:
+                collapsed: true
+                summary: "{title}"
+            fields:
+              - { name: category, label: Content type, type: string }
+              - { name: symbol, label: Card symbol, type: string }
+              - { name: title, label: Card title, type: string }
+              - { name: description, label: Description, type: text }
+              - { name: linkLabel, label: Link label, type: string }
+              - { name: link, label: Link URL, type: string }
+              - name: articles
+                label: Article links
+                type: object
+                list: true
+                fields:
+                  - { name: title, label: Article title, type: string }
+                  - { name: attribution, label: Author and publication, type: string }
+                  - { name: url, label: Article URL, type: string }
+      - name: books
+        label: Books
+        type: object
+        fields:
+          - { name: eyebrow, label: Section heading, type: string }
+          - { name: title, label: Section title, type: string }
+          - { name: note, label: Approval note, type: text }
+          - name: items
+            label: Books
+            type: object
+            list:
+              min: 0
+              collapsible:
+                collapsed: true
+                summary: "{title}"
+            fields:
+              - { name: category, label: Category, type: string }
+              - { name: title, label: Book title, type: string }
+              - { name: description, label: Description, type: text }
+              - { name: linkLabel, label: Link label, type: string }
+              - { name: link, label: Link URL, type: string }
+      - name: impact
+        label: Social enterprise
+        type: object
+        fields:
+          - { name: eyebrow, label: Small heading, type: string }
+          - { name: titleLead, label: Main heading, type: string }
+          - { name: titleEmphasis, label: Emphasised heading, type: string }
+          - { name: intro, label: Introduction, type: text }
+          - name: items
+            label: Initiatives
+            type: object
+            list:
+              min: 0
+              collapsible:
+                collapsed: true
+                summary: "{title}"
+            fields:
+              - { name: category, label: Category, type: string }
+              - { name: title, label: Initiative title, type: string }
+              - { name: description, label: Description, type: text }
+              - { name: linkLabel, label: Link label, type: string }
+              - { name: link, label: Link URL, type: string }
+      - name: contact
+        label: Contact and privacy
+        type: object
+        fields:
+          - { name: eyebrow, label: Small heading, type: string }
+          - { name: titleLead, label: Main heading, type: string }
+          - { name: titleEmphasis, label: Emphasised heading, type: string }
+          - { name: intro, label: Introduction, type: text }
+          - { name: email, label: Email address, type: string }
+          - { name: whatsapp, label: WhatsApp number, type: string }
+          - { name: location, label: Location, type: string }
+          - { name: facebook, label: Facebook URL, type: string }
+          - { name: instagram, label: Instagram URL, type: string }
+          - { name: privacyNote, label: Privacy notice draft, type: text }
+
+settings:
+  content:
+    merge: true
+  commit:
+    identity: app
+    templates:
+      update: "content: update Citrine homepage"
+      create: "content: add Citrine content"

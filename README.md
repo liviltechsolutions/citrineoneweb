@@ -1,31 +1,26 @@
-# Citrine One website revamp concept
+# Citrine One website concept
 
-Open `index.html` in a browser to view the responsive, single-page static website concept. The Privacy notice is an anchored section on the same page. No CMS, hosting, analytics, database, or production form service is connected.
+The site is a responsive, single-page frontend published with GitHub Pages. Its editable content is stored in [`data/homepage.json`](data/homepage.json). The Pages CMS schema is in [`.pages.yml`](.pages.yml).
 
-## RFP alignment
+## Open the CMS
 
-The page includes the required content areas and marks items that need Citrine approval. See [RFP coverage and launch dependencies](RFP-COVERAGE.md) for the section map, visitor journeys, assumptions, and items that still need approval or implementation.
+1. Go to [Pages CMS](https://app.pagescms.org/) and sign in with the GitHub account that owns `liviltechsolutions/citrineoneweb`.
+2. Install/authorize the Pages CMS GitHub App for this repository when prompted.
+3. Choose `citrineoneweb`, open **Citrine One homepage**, and edit the labeled fields.
+4. Save the changes. Pages CMS commits the content and uploaded images to this GitHub repository. GitHub Pages then republishes the site.
 
-## Brand and content approvals
+Editors need repository access or must be invited as Pages CMS collaborators. Do not share a personal access token. Image uploads are stored in the repository under `assets/`.
 
-The header and footer use the Citrine wordmark from its public Instagram and Facebook profiles. The hero team photo is a 2022 image credited to Citrine One Instagram by the public gallery where it was found. Ivlynn Yap's portrait is credited to MARKETECH APAC (2024); Redza Arbee's portrait is credited to Terence Toh / Free Malaysia Today (2024). Reuse permission for both portraits and the hero image must be confirmed before publication. Profile biographies and titles also require Citrine approval. The visible draft banner flags that people, partner affiliations, copy, and assets need approval. Affiliate relationships must be reconfirmed; no partner logos are used.
+## What editors can change
 
-The design uses the black and orange visible in the public wordmark as a working palette. Citrine's approved corporate identity guidelines were not included in the RFP attachment, so the palette, logo treatment, typography, and imagery need brand review.
+The CMS includes the hero, company introduction, people and biographies, profile photos, collaborators, services, C-suite programmes, insights and article links, books, social enterprise initiatives, contact information and privacy draft. Updates to this content file appear on the frontend after the GitHub Pages deployment completes.
 
-## Sources
+The CMS manages website content and images. Layout, typography, colors, navigation structure and responsive behavior remain in `index.html`, `styles.css` and `cms.js`; design changes are made in code and pushed to GitHub.
 
-- RFP: `C:\Users\user\Documents\Citrine One Website\Request for Proposal_Citrine Revamp Website.pdf`
-- Official services: https://www.citrine.com.my/services
-- Official About: https://www.citrine.com.my/aboutus
-- Official training: https://www.citrine.com.my/trainings
-- Official articles archive: https://www.citrine.com.my/articles
-- Facebook: https://www.facebook.com/Citrineone
-- Instagram: https://www.instagram.com/citrine.my/
-- Photo attribution page: https://myweekendplan.asia/top-best-pr-agencies-in-malaysia/
-- The Edge article by Redza Arbee: https://theedgemalaysia.com/node/733145
-- BusinessToday article by Ivlynn Yap: https://www.businesstoday.com.my/2026/02/28/why-women-still-struggle-to-lead-and-why-the-problem-is-bigger-than-the-workplace/
-- Publisher listing for Redza Arbee's book: https://marsdenlawbook.com/product/the-digital-transformation-of-money/
+To preview locally, serve the repository root (for example, use VS Code Live Server) and open the local page. The site uses its embedded content if the JSON file cannot be loaded.
 
-## Preview limitations
+## RFP alignment and approvals
 
-The enquiry form opens the visitor's email application and does not save or send data by itself. Before launch, Citrine needs to approve the privacy notice, form delivery and routing, spam prevention, retention, analytics, CMS, hosting, backups, security and support arrangements. The RFP proposes no fixed CMS, hosting vendor, price or budget ceiling, so none is invented here.
+The RFP leaves the CMS and hosting choice open and asks vendors to justify a recommendation. Pages CMS is the current GitHub-backed concept for content editing, not a platform specified by Citrine. See [RFP coverage and launch dependencies](RFP-COVERAGE.md) for the complete scope and approval items.
+
+Names, titles, affiliations, partner agreements, photos and claims still require Citrine approval before publication. The enquiry form is a preview that opens the visitor's email application; production form delivery, privacy, analytics, hosting, backups and support need final approval and setup.
