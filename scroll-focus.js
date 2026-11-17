@@ -1,5 +1,5 @@
 ﻿(() => {
-  const selector = '#top h1, #about-title, #services-title, #programmes-title, #insights-title, #impact-title, #contact-title';
+  const selector = '#top h1, #about-title, #services-title, #stories-title, #programmes-title, #insights-title, #impact-title, #contact-title';
   const titles = Array.from(document.querySelectorAll(selector));
   if (!titles.length || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
