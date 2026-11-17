@@ -49,7 +49,8 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 .brand{width:170px;height:58px;background:transparent;overflow:hidden}
 .brand img{width:100%;height:100%;max-width:none;object-fit:cover;object-position:center;mix-blend-mode:multiply}
 .service-card-accent{background:#fff;color:var(--ink);border-color:#e0ded6}
-.service-card-accent .card-index,.service-card-accent p,.service-card-accent .card-link{color:inherit}
+.service-card-accent .card-index,.service-card-accent p{color:inherit}
+.service-card-accent .card-link{color:var(--orange-dark)}
 .service-card:hover,.service-card:focus-visible,.service-card-accent:hover,.service-card-accent:focus-visible{background:#e96b36;color:#201d19;border-color:#e96b36;box-shadow:0 10px 24px rgba(158,70,33,.13)}
 .service-card:hover .card-index,.service-card:hover p,.service-card:hover .card-link,.service-card:focus-visible .card-index,.service-card:focus-visible p,.service-card:focus-visible .card-link{color:#30231d}
 .contact-details .button-facebook{display:inline-flex;width:max-content;min-height:44px;margin-top:10px;padding:12px 16px;background:#1877f2;color:#fff;border:1px solid #1877f2;font-size:11px;gap:9px}.contact-details .button-facebook:hover{background:#0d65d9;border-color:#0d65d9;color:#fff}.button-facebook svg{width:17px;height:17px;fill:currentColor}.contact-details .button-facebook span{margin-left:3px;color:#fff}
