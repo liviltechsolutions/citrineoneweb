@@ -254,3 +254,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 .contact-details .contact-action.contact-whatsapp{background:#25d366;border-color:#25d366;color:#fff}
 .contact-details .contact-action.contact-whatsapp:hover{background:#1fbd5b;border-color:#1fbd5b;color:#fff}
 .contact-details .contact-action.contact-whatsapp svg{stroke:#fff}
+
+.contact-details .contact-action.contact-whatsapp{background:#fff;border-color:var(--line);color:var(--ink)}
+.contact-details .contact-action.contact-whatsapp:hover{background:#fffdfa;border-color:#25d366;color:var(--ink)}
+.contact-details .contact-action.contact-whatsapp svg{stroke:#25d366}
