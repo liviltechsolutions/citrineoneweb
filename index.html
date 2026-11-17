@@ -3,6 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    if (window.location.hash === '#contact') {
+      history.replaceState(null, '', window.location.pathname + window.location.search);
+    }
+  </script>
   <meta name="theme-color" content="#f8f7f3">
   <meta name="description" content="Citrine One provides strategic communications, crisis communications, stakeholder engagement and leadership programmes across Malaysia and the region.">
   <meta property="og:title" content="Citrine One | Shaping Stories. Inspiring Results.">
