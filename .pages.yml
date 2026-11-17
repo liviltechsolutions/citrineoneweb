@@ -122,8 +122,6 @@ content:
           - { name: titleLead, label: Main heading, type: string }
           - { name: titleEmphasis, label: Emphasised heading, type: string }
           - { name: intro, label: Introduction, type: text }
-          - { name: cta, label: Follow-up prompt, type: string }
-          - { name: ctaLink, label: Follow-up link label, type: string }
           - name: items
             label: Programme list
             type: object
@@ -134,7 +132,7 @@ content:
                 summary: "{title}"
             fields:
               - { name: title, label: Programme title, type: string }
-              - { name: link, label: Link URL, type: string }
+              - { name: description, label: Description, type: text }
       - name: insights
         label: Insights and research
         type: object

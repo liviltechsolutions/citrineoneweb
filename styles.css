@@ -220,3 +220,10 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 .team-block>.founder-profile .career-list small{font-size:13px;line-height:1.65}
 .team-block>.founder-profile .founder-sources{margin-top:18px;font-size:12px;line-height:1.7}
 @media(max-width:760px){.team-block>.founder-profile{grid-template-columns:minmax(0,1fr);grid-template-areas:"heading" "portrait" "details";gap:17px;padding:22px}.team-block>.founder-profile .founder-heading h3{font-size:clamp(34px,9vw,46px)}.team-block>.founder-profile .founder-portrait{max-width:min(100%,420px)}.team-block>.founder-profile .founder-copy{padding:0}.team-block>.founder-profile.ivlynn-profile .portrait-frame{max-height:460px}.team-block>.founder-profile .founder-copy>p:not(.founder-sources){font-size:14px}}
+
+/* Programme offerings are informational and do not imply a link or enquiry action. */
+.programme-row{grid-template-columns:42px minmax(0,1fr);gap:14px;padding:18px 0;min-height:0;cursor:default;transition:none}
+.programme-row:hover{padding-left:0;background:transparent}
+.programme-row>div{min-width:0}
+.programme-row strong{display:block;font-size:18px;line-height:1.4}
+.programme-row p{max-width:780px;margin:5px 0 0;color:var(--muted);font-size:14px;line-height:1.7}

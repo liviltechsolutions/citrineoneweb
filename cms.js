@@ -128,10 +128,7 @@
         text('.section-intro', section.intro, head);
       }
       const rows = document.querySelector('.programme-list');
-      if (rows) rows.innerHTML = (section.items || []).map((item, i) => `<a href="${escape(safeUrl(item.link))}" class="programme-row"><span>${String(i + 1).padStart(2, '0')}</span><strong>${escape(item.title)}</strong><b aria-hidden="true">↗</b></a>`).join('');
-      text('.inline-cta p', section.cta);
-      const cta = document.querySelector('.inline-cta a');
-      if (cta) cta.innerHTML = `${escape(section.ctaLink)} <span aria-hidden="true">→</span>`;
+      if (rows) rows.innerHTML = (section.items || []).map((item, i) => `<article class="programme-row"><span>${String(i + 1).padStart(2, '0')}</span><div><strong>${escape(item.title)}</strong><p>${escape(item.description || '')}</p></div></article>`).join('');
     }
     if (data.insights) {
       const section = data.insights;

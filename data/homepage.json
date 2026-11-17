@@ -189,28 +189,26 @@
     "titleLead": "Prepare leaders to",
     "titleEmphasis": "move with confidence.",
     "intro": "A focused programme range for senior leaders and the teams who advise them.",
-    "cta": "Looking for a tailored session for your leadership team?",
-    "ctaLink": "Ask about a programme",
     "items": [
       {
         "title": "Crisis communications strategy & simulation",
-        "link": "#contact"
+        "description": "Plan response roles and practise decision-making through realistic crisis scenarios."
       },
       {
         "title": "Stakeholder management",
-        "link": "#contact"
+        "description": "Map key audiences and build thoughtful approaches to listening, engagement and communication."
       },
       {
         "title": "Conflict management",
-        "link": "#contact"
+        "description": "Explore ways to navigate difficult conversations, resolve tensions and find practical paths forward."
       },
       {
         "title": "Reputation management",
-        "link": "#contact"
+        "description": "Understand reputational risks and align communications to build trust over time."
       },
       {
         "title": "Economic crime management",
-        "link": "#contact"
+        "description": "Build awareness of economic crime risks and consider responsible response approaches."
       }
     ]
   },
