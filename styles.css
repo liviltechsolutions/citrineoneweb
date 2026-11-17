@@ -227,3 +227,26 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 .programme-row>div{min-width:0}
 .programme-row strong{display:block;font-size:18px;line-height:1.4}
 .programme-row p{max-width:780px;margin:5px 0 0;color:var(--muted);font-size:14px;line-height:1.7}
+
+/* Clear, accessible contact actions and a calmer enquiry form. */
+.contact-section{gap:8%;align-items:stretch}
+.contact-left{padding-top:5px}
+.contact-left>p:not(.eyebrow){font-size:15px;line-height:1.8;max-width:490px}
+.contact-details{display:grid;grid-template-columns:minmax(0,1fr);gap:11px;margin-top:27px;max-width:410px}
+.contact-details .contact-action{display:flex;align-items:center;gap:14px;width:100%;min-height:60px;padding:13px 16px;border:1px solid var(--line);background:#fff;color:var(--ink);font-size:14px;font-weight:600;text-decoration:none;transition:border-color .18s ease,background .18s ease,transform .18s ease}
+.contact-details .contact-action:hover{border-color:var(--orange);background:#fffdfa;transform:translateY(-1px)}
+.contact-details .contact-action svg,.contact-details .contact-location svg{width:21px;height:21px;flex:none;fill:none;stroke:var(--orange-dark);stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.contact-details .contact-action .contact-value{overflow-wrap:anywhere}
+.contact-details .contact-action.button-facebook{margin:0;max-width:none;min-height:60px;background:#1877f2;border-color:#1877f2;color:#fff;gap:14px}
+.contact-details .contact-action.button-facebook:hover{background:#0f69dc;border-color:#0f69dc;color:#fff}
+.contact-details .contact-action.button-facebook svg{width:20px;height:20px;fill:currentColor;stroke:none}
+.contact-details .contact-location{display:flex;align-items:center;gap:10px;padding:5px 2px 0;color:var(--muted);font-size:13px}
+.contact-details .contact-location svg{width:18px;height:18px}
+.enquiry-form{padding:32px;border:1px solid #e3e1d9;box-shadow:0 12px 36px rgba(31,31,27,.055)}
+.enquiry-form>.eyebrow{margin-bottom:23px}
+.enquiry-form label:not(.consent){margin:17px 0 7px;font-size:12px}
+.enquiry-form input:not([type=checkbox]),.enquiry-form select,.enquiry-form textarea{min-height:46px;padding:11px 13px;border-radius:2px;font-size:14px}
+.enquiry-form textarea{min-height:130px;line-height:1.6}
+.enquiry-form .consent{font-size:12px}
+.enquiry-form .form-note{font-size:12px;line-height:1.6}
+@media(max-width:760px){.contact-section{gap:34px}.contact-details{max-width:none}.enquiry-form{padding:24px}}
