@@ -306,3 +306,6 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
   .team-block>.founder-profile.redza-profile .founder-portrait>img{aspect-ratio:3/2;object-fit:cover;object-position:center}
 }
 @media(max-width:420px){.hero-photo{height:auto;aspect-ratio:1/1}.hero-photo img{height:100%;object-fit:contain}}
+
+/* Reset browser figure indents so full-width photos stay inside mobile layouts. */
+figure{margin-left:0;margin-right:0}
