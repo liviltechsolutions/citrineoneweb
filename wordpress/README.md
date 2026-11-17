@@ -26,6 +26,14 @@ Open `http://127.0.0.1:9400/wp-admin/`. Playground auto logs in as the local adm
 
 Serve the frontend separately from `C:\CitrineOne`, for example with VS Code Live Server on port 5500, which is allowed by the plugin default CORS configuration. Production WordPress needs a hosted PHP/MySQL-compatible WordPress environment; a static GitHub Pages site cannot run WordPress itself.
 
+## Deployable WordPress stack
+
+The `compose.yaml` file packages WordPress, MariaDB and the Citrine plugin for a Docker host. It is a deployment template, not a public server by itself. On the host, copy `.env.example` to `.env`, set unique long database passwords, then run `docker compose up -d`. The WordPress port binds to loopback (`127.0.0.1:8080`) so a reverse proxy can provide HTTPS; do not expose the admin over plain HTTP. Complete the WordPress setup in the browser, activate the plugin, and create named administrator/editor accounts. Add the exact GitHub Pages origin in **Settings → Citrine Headless**.
+
+Keep `.env` and database backups out of Git. A production host also needs HTTPS termination, persistent volumes, automated off-host backups, update monitoring, and restore checks. Select a provider and domain before making this endpoint public.
+
+After the host has a public HTTPS URL, update `cms-config.js` to point to `https://YOUR-CMS-DOMAIN/wp-json/citrine/v1/content`, commit, and push. That connects the live GitHub Pages frontend to WordPress. Until then, GitHub Pages uses the built-in static content and the local preview uses the local API.
+
 ## Before launch
 
 Review every seeded draft, biography, partner relationship, image and reuse permission with Citrine. Add the production CMS origin to the allowed origins. Set up HTTPS, backups, least-privilege editor accounts and an approved privacy/form workflow with the hosting provider.
