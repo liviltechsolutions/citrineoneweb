@@ -294,3 +294,15 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 
 /* Titles subtly grow as they approach the reading focus. */
 #top h1,#about-title,#services-title,#programmes-title,#insights-title,#impact-title,#contact-title{transform:scale(var(--scroll-title-scale,1));transform-origin:left center;opacity:var(--scroll-title-opacity,1)}
+
+/* Keep the square hero photo fully visible on phones and preserve the book photo's wide crop. */
+.team-block>.founder-profile.redza-profile .founder-portrait>img{aspect-ratio:3/2;object-fit:cover;object-position:center}
+@media(max-width:760px){
+  .hero-photo{width:100%;height:auto;min-height:0;aspect-ratio:1/1;overflow:hidden}
+  .hero-photo img{width:100%;height:100%;object-fit:contain;object-position:center}
+  .founder-portrait{min-width:0;overflow:hidden}
+  .ivlynn-portrait-frame{width:100%;max-width:100%;aspect-ratio:4/5}
+  .ivlynn-portrait-frame img{width:100%;height:100%;object-fit:contain!important}
+  .team-block>.founder-profile.redza-profile .founder-portrait>img{aspect-ratio:3/2;object-fit:cover;object-position:center}
+}
+@media(max-width:420px){.hero-photo{height:auto;aspect-ratio:1/1}.hero-photo img{height:100%;object-fit:contain}}
